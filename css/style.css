@@ -203,6 +203,11 @@
      background-color: #5d5d5d;
      color: #acacac;
    }
+
+   .bio-info {
+    margin-bottom: 10px;
+    min-width: 200px;
+   }
    
    .socials {
      padding-bottom: 200px;
