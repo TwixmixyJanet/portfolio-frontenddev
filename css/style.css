@@ -114,14 +114,14 @@
      justify-content: space-around;
      font-size: 15px;
      text-align: start;
-     background-color: #ffb300;
+     background-color: #2d74ba;
      border-radius: 25px;
      flex-direction: column-reverse;
      font-weight: 600;
    }
    
    ul a {
-     color: #5d5d5d;
+     color: rgb(240, 248, 255);
    }
    
    ul.show {
@@ -183,25 +183,25 @@
    .button {
      width: 200px;
      height: 60px;
-     background-color: #ffb300;
+     background-color: #2D74BA;
      border-radius: 40px;
      text-align: center;
-     color: #5d5d5d;
+     color: rgb(240, 248, 255);
      text-transform: uppercase;
    }
    
    .button a {
-     color: #5d5d5d;
+     color: rgb(240, 248, 255);
    }
    
    .button:hover {
-     background-color: #fff200;
-     color: #5d5d5d;
+     background-color: #0080ff;
+     color: rgb(240, 248, 255);
    }
    
    .button:active {
-     background-color: #5d5d5d;
-     color: #acacac;
+     background-color: rgb(240, 248, 255);
+     color: #2D74BA;
    }
 
    .bio-info {
@@ -258,7 +258,7 @@
      margin: 50px 15px;
      padding-bottom: 19px;
      border-radius: 25px 25px 0 0;
-     border-bottom: #5d5d5d 15px solid;
+     border-bottom: #2D74BA 15px solid;
      background-color: #ffebbb;
    }
    
@@ -296,14 +296,15 @@
    
    hr {
      margin: 20px;
+     color: #2D74BA;
    }
    
    .project-card a {
      text-decoration: none;
-     color: #ffb300;
+     color: rgb(240, 248, 255);
      font-weight: 600;
      text-transform: uppercase;
-     background-color: #5d5d5d;
+     background-color: #2D74BA;
      padding: 5px 15px;
      border-radius: 15px;
    }
