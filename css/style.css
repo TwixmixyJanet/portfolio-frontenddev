@@ -351,6 +351,10 @@
    /* Explicitly need to make the headshot smaller on mobile and larger on bigger screens! */
    
    @media (min-width: 640px) {
+    .content-wrapper {
+      max-width: 960px;
+    }
+
    .hamburger {
      display: none;
    
