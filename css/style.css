@@ -209,7 +209,6 @@
 
    .bio-info {
     margin-bottom: 10px;
-    min-width: 200px;
    }
    
    .socials {
@@ -230,7 +229,7 @@
    .about-section {
      display: flex;
      flex-wrap: wrap;
-     justify-content: space-around;
+     justify-content: space-between;
      padding: 80px;
      background-color: #ffebbb;
    }
@@ -385,6 +384,11 @@
      justify-content: space-around;
      padding: 80px;
      background-color: #ffebbb;
+   }
+
+   .about-section .content-wrapper {
+    display: flex;
+    justify-content: space-between;
    }
    
      .projects {
