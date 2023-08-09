@@ -367,6 +367,12 @@
      align-items: center;
      margin: 10px;
    }
+
+   .icon {
+     justify-content: space-between;
+     flex-wrap: wrap;
+     margin: 10px;
+   }
    
    footer .social-icons i {
      font-size: 2em;
