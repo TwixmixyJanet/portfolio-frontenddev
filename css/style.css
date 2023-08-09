@@ -379,9 +379,9 @@
    }
    
    .about-section {
-     display: flex;
+     /* display: flex;
      flex-wrap: nowrap;
-     justify-content: space-around;
+     justify-content: space-around; */
      padding: 80px;
      background-color: #ffebbb;
    }
