@@ -272,7 +272,7 @@
    }
 
    .skill, .tech {
-    text-transform: capitalize;
+    text-transform: uppercase;
     background-color: #2D74BA;
     border-radius: 20px;
     color:rgb(240, 248, 255);
