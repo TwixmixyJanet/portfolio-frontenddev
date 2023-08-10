@@ -99,7 +99,6 @@
    
    section {
      background-color: white;
-     /* border: solid #ffb300 10px; */
    }
    
    nav {
@@ -146,7 +145,6 @@
      background: #1c1d25;
      color: rgb(240, 248, 255);
      text-align: center;
-     padding: 80px;
    }
    
    h1 {
@@ -179,8 +177,7 @@
    }
    
    .hero-text {
-     margin-left: 80px;
-     margin-bottom: 100px;
+/* intentionally left blank */
    }
    
    .button {
@@ -212,7 +209,6 @@
    }
    
    .socials {
-     padding-bottom: 200px;
      margin: 20px;
    }
    
@@ -222,7 +218,8 @@
    
    .logo {
      height: 50px;
-     rotate: -30deg;
+     /* rotate: -30deg; */
+     transform: rotate(-30deg);
      margin: 20px;
    }
    
@@ -230,7 +227,7 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
-     padding: 80px;
+     padding: 30px;
      background-color: #ffebbb;
    }
    
@@ -284,7 +281,6 @@
    }
    
    .project-card {
-     min-width: none;
      max-width: 310px;
      height: fit-content;
      box-shadow: 5px 5px 10px #5d5d5d;
@@ -312,7 +308,6 @@
      justify-content: center;
      flex-flow: row wrap;
      text-align: center;
-     padding: 80px;
    }
    
    .project-img {
@@ -367,12 +362,12 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
+     flex-flow: row wrap;
      margin: 10px;
    }
 
    .icon {
      justify-content: space-between;
-     flex-wrap: wrap;
      margin: 10px;
    }
    
@@ -413,14 +408,6 @@
    
    ul a {
      color: rgb(240, 248, 255);
-   }
-   
-   .about-section {
-     /* display: flex;
-     flex-wrap: nowrap;
-     justify-content: space-around; */
-     padding: 80px;
-     background-color: #ffebbb;
    }
 
    .about-section .content-wrapper {
